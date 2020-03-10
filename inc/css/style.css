@@ -1,5 +1,8 @@
 .article{
-    background-color: #E9E9E9;
+    background-color: rgba(220,220,220,0.8);
+    margin-bottom: 10px;
+    margin-top: 10px;
+    
 }
 .topalign{
     margin-top: 15px !important;
@@ -10,7 +13,7 @@
 .img{
 	width: 280px;
 	height: 200px;
-    padding-left: -20px;
+    padding: 5px;
 }
 .img>img{
 	width: 100%;
@@ -34,4 +37,20 @@
 }*/
 .text{
     padding-top: 50px;
+}
+.no-underline{
+    color: darkgray;
+}
+.no-underline:hover{
+    text-decoration: none;
+    color: darkgray;
+    cursor:grab;
+}
+.images{
+    width: 100px;
+    height: 100px;  
+}
+.images>img{
+    width: 100%;
+    height: 100%;
 }

@@ -70,3 +70,13 @@
     color: black;
     cursor:grab;
 }
+.background3{
+    background: url('../images/fondmonstre.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat ;
+}
+.background4{
+    background: url('../images/forgefond.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat ;
+}

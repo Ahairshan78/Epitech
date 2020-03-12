@@ -1,7 +1,8 @@
 .article{
-    background-color: rgba(210,210,210,1);
+    background-color: #FFFFFF;
     margin-bottom: 10px;
     margin-top: 10px;
+    opacity: 0.7;
     
 }
 .topalign{
@@ -50,4 +51,22 @@
 .images>img{
     width: 100%;
     height: 100%;
+}
+.background{
+    background: url('../images/Fondmhw.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat ;
+}
+.background2{
+    background: url('../images/mhwfond.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat ;
+}
+.no-underline2{
+    color: black;
+}
+.no-underline2:hover{
+    text-decoration: none;
+    color: black;
+    cursor:grab;
 }
